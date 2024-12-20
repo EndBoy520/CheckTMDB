@@ -67,7 +67,10 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 1. 直接执行`check_tmdb_github.py`脚本，同时查询IPv4及IPv6地址，目录生成`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件；
 2. 带`-G` 参数执行：`check_tmdb_github.py -G`，会在`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件中追加 Github IPv4 地址；
-
+3. 直接执行`check_tmdb_github_write.py`脚本，同时查询IPv4及IPv6地址，目录生成`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件；并写入Win或Linux系统的hosts文件中
+4. 直接执行`write_tmdb_github.py`脚本，将生成的`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件一并写入Win或Linux系统的hosts文件中
+5. 脚本同目录下必须带README_template.md和README.md两个文件，否者无法生成；单独的写入hosts脚本只需同目录下`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件
+6. 可以利用1panel等计划任务定时执行。                     
 ## 其他
 
 - [x] 自学薄弱编程基础，大部分代码基于AI辅助生成，此项目过程中，主要人为解决的是：通过 [dnschecker](https://dnschecker.org/) 提交时，通过计算出正确的udp参数，获取正确的csrftoken，携带正确的referer提交！
