@@ -1,14 +1,14 @@
 # Tmdb Hosts Start
-18.154.144.60               themoviedb.org
-18.154.144.60               www.themoviedb.org
-18.154.132.71               auth.themoviedb.org
-13.226.225.44               api.themoviedb.org
-13.225.142.52               tmdb.org
-3.167.192.35                api.tmdb.org
-143.244.50.88               image.tmdb.org
-18.154.130.110              thetvdb.com
-3.167.194.87                api.thetvdb.com
-# Update time: 2024-12-28T06:13:51+08:00
+18.239.94.112               themoviedb.org
+18.239.94.11                www.themoviedb.org
+18.239.18.107               auth.themoviedb.org
+13.227.219.43               api.themoviedb.org
+13.227.219.123              tmdb.org
+108.156.60.117              api.tmdb.org
+143.244.49.179              image.tmdb.org
+18.238.249.95               thetvdb.com
+18.65.33.106                api.thetvdb.com
+# Update time: 2024-12-28T18:14:26+08:00
 # IPv4 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4
 # IPv6 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
