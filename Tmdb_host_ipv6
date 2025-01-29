@@ -1,12 +1,12 @@
 # Tmdb Hosts Start
-2600:9000:275b:6400:e:5373:440:93a1                themoviedb.org
-2600:9000:275b:8a00:e:5373:440:93a1                www.themoviedb.org
-2600:9000:275b:e00:16:e4a1:eb00:93a1               auth.themoviedb.org
-2600:9000:2057:e200:c:174a:c400:93a1               api.themoviedb.org
-2600:9000:27e6:1e00:10:db24:6940:93a1              tmdb.org
-2600:9000:223c:d800:10:fb02:4000:93a1              api.tmdb.org
-2400:52e0:1a01::999:1                              image.tmdb.org
-# Update time: 2025-01-29T18:15:48+08:00
+2600:9000:2355:9800:e:5373:440:93a1                themoviedb.org
+2600:9000:2355:d400:e:5373:440:93a1                www.themoviedb.org
+2600:9000:2541:8800:16:e4a1:eb00:93a1              auth.themoviedb.org
+2600:9000:2355:4e00:c:174a:c400:93a1               api.themoviedb.org
+2600:9000:2355:4a00:10:db24:6940:93a1              tmdb.org
+2600:9000:273b:4800:10:fb02:4000:93a1              api.tmdb.org
+2400:52e0:1a01::852:1                              image.tmdb.org
+# Update time: 2025-01-30T06:14:38+08:00
 # IPv4 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4
 # IPv6 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
