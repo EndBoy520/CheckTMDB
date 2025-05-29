@@ -23,16 +23,16 @@
 
 ```bash
 # Tmdb Hosts Start
-3.160.150.18                themoviedb.org
-3.160.150.18                www.themoviedb.org
-3.160.150.105               auth.themoviedb.org
-13.32.99.49                 api.themoviedb.org
-3.167.227.50                tmdb.org
-18.66.102.107               api.tmdb.org
-169.150.249.165             image.tmdb.org
-108.138.20.106              thetvdb.com
-18.66.115.103               api.thetvdb.com
-# Update time: 2025-05-29T06:16:12+08:00
+3.167.212.33                themoviedb.org
+3.167.212.33                www.themoviedb.org
+18.154.132.115              auth.themoviedb.org
+3.169.231.17                api.themoviedb.org
+3.167.192.127               tmdb.org
+3.167.192.35                api.tmdb.org
+138.199.9.104               image.tmdb.org
+18.154.130.110              thetvdb.com
+3.167.194.87                api.thetvdb.com
+# Update time: 2025-05-29T18:19:28+08:00
 # IPv4 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4
 # IPv6 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
@@ -40,20 +40,20 @@
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2025-05-29T06:16:12+08:00
+该内容会自动定时更新， 数据更新时间：2025-05-29T18:19:28+08:00
 
 #### 2.1.2 IPv6地址复制下面的内容
 
 ```bash
 # Tmdb Hosts Start
-2600:9000:275b:8600:e:5373:440:93a1                themoviedb.org
-2600:9000:275b:2c00:e:5373:440:93a1                www.themoviedb.org
-2600:9000:275b:ba00:16:e4a1:eb00:93a1              auth.themoviedb.org
-2600:9000:2251:3800:c:174a:c400:93a1               api.themoviedb.org
-2600:9000:27e6:400:10:db24:6940:93a1               tmdb.org
-2600:9000:223c:1000:10:fb02:4000:93a1              api.tmdb.org
-2400:52e0:1a01::992:1                              image.tmdb.org
-# Update time: 2025-05-29T06:16:12+08:00
+2600:9000:27e3:e800:e:5373:440:93a1                themoviedb.org
+2600:9000:27e3:c800:e:5373:440:93a1                www.themoviedb.org
+2600:9000:24db:9e00:16:e4a1:eb00:93a1              auth.themoviedb.org
+2600:9000:2864:2e00:c:174a:c400:93a1               api.themoviedb.org
+2600:9000:27e0:8c00:10:db24:6940:93a1              tmdb.org
+2600:9000:27e0:2e00:10:fb02:4000:93a1              api.tmdb.org
+2400:52e0:1a01::907:1                              image.tmdb.org
+# Update time: 2025-05-29T18:19:28+08:00
 # IPv4 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4
 # IPv6 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
@@ -61,7 +61,7 @@
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2025-05-29T06:16:12+08:00
+该内容会自动定时更新， 数据更新时间：2025-05-29T18:19:28+08:00
 
 #### 2.1.3 修改 hosts 文件
 
