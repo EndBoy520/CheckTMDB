@@ -12,8 +12,8 @@
 
 ## 文件地址
 
-- tmdb ipv4 hosts文件：`https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4` ，[链接](https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4)
-- tmdb ipv6 hosts：`https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6` ，[链接](https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6)
+- TMDB IPv4 hosts：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4` ，[链接](https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4)
+- TMDB IPv6 hosts：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6` ，[链接](https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6)
 
 ## 二、使用方法
 
@@ -23,45 +23,66 @@
 
 ```bash
 # Tmdb Hosts Start
-3.167.212.89                themoviedb.org
-3.167.212.89                www.themoviedb.org
-18.154.132.115              auth.themoviedb.org
-3.167.212.53                api.themoviedb.org
-3.167.192.127               tmdb.org
-3.167.192.35                api.tmdb.org
-138.199.9.104               image.tmdb.org
-18.154.130.110              thetvdb.com
-3.167.194.87                api.thetvdb.com
-# Update time: 2025-06-05T06:15:35+08:00
-# IPv4 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4
-# IPv6 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6
+18.238.96.106               tmdb.org
+18.155.173.53               api.tmdb.org
+18.238.109.48               files.tmdb.org
+18.155.173.2                themoviedb.org
+18.238.109.101              api.themoviedb.org
+18.155.173.2                www.themoviedb.org
+18.238.96.88                auth.themoviedb.org
+143.244.49.178              image.tmdb.org
+143.244.50.83               images.tmdb.org
+44.215.137.99               imdb.com
+18.155.175.50               www.imdb.com
+44.215.137.99               secure.imdb.com
+18.155.175.50               s.media-imdb.com
+44.215.137.99               us.dd.imdb.com
+18.155.175.50               www.imdb.to
+98.82.158.179               origin-www.imdb.com
+18.238.110.79               ia.media-imdb.com
+18.238.89.91                thetvdb.com
+18.155.176.108              api.thetvdb.com
+23.206.188.209              ia.media-imdb.com
+151.101.1.16                f.media-amazon.com
+18.238.109.51               imdb-video.media-imdb.com
+# Update time: 2026-01-04T14:14:30+08:00
+# IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
+# IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
 # Tmdb Hosts End
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2025-06-05T06:15:35+08:00
+该内容会自动定时更新， 数据更新时间：2026-01-04T14:14:30+08:00
 
 #### 2.1.2 IPv6地址复制下面的内容
 
 ```bash
 # Tmdb Hosts Start
-2600:9000:27e3:8c00:e:5373:440:93a1                themoviedb.org
-2600:9000:27e3:ea00:e:5373:440:93a1                www.themoviedb.org
-2600:9000:24db:4000:16:e4a1:eb00:93a1              auth.themoviedb.org
-2600:9000:27e3:2800:c:174a:c400:93a1               api.themoviedb.org
-2600:9000:27e0:d600:10:db24:6940:93a1              tmdb.org
-2600:9000:27e0:7e00:10:fb02:4000:93a1              api.tmdb.org
-2400:52e0:1a01::986:1                              image.tmdb.org
-# Update time: 2025-06-05T06:15:35+08:00
-# IPv4 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4
-# IPv6 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6
+2600:9000:2776:6400:10:db24:6940:93a1              tmdb.org
+2600:9000:246b:2c00:10:fb02:4000:93a1              api.tmdb.org
+2600:9000:2778:aa00:5:da10:7440:93a1               files.tmdb.org
+2600:9000:246b:9a00:e:5373:440:93a1                themoviedb.org
+2600:9000:2778:8400:c:174a:c400:93a1               api.themoviedb.org
+2600:9000:246b:c000:e:5373:440:93a1                www.themoviedb.org
+2600:9000:2776:e200:16:e4a1:eb00:93a1              auth.themoviedb.org
+2400:52e0:1a01::984:1                              image.tmdb.org
+2400:52e0:1a01::985:1                              images.tmdb.org
+2a04:4e42:200::272                                 ia.media-imdb.com
+2a04:4e42:200::272                                 ia.media-imdb.com
+2a04:4e42:200::272                                 f.media-amazon.com
+# Update time: 2026-01-04T14:14:30+08:00
+# IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
+# IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
 # Tmdb Hosts End
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2025-06-05T06:15:35+08:00
+该内容会自动定时更新， 数据更新时间：2026-01-04T14:14:30+08:00
+
+> [!NOTE]
+> 由于项目搭建在Github Aciton，延时数据获取于Github Action 虚拟主机网络环境，请自行测试可用性，建议使用本地网络环境自动设置。
 
 #### 2.1.3 修改 hosts 文件
 
@@ -91,6 +112,27 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 **Tips：** 上述方法无效可以尝试重启机器。
 
+### 2.2 自动方式
+
+#### 2.2.1 安装 SwitchHosts
+
+GitHub 发行版：https://github.com/oldj/SwitchHosts/releases/latest
+
+#### 2.2.2 添加 hosts
+
+点击左上角“+”，并进行以下配置：
+
+- Hosts 类型：`远程`
+- Hosts 标题：任意
+- URL
+    - IPv4：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4`
+    - IPv6：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6`
+- 自动刷新：`1 小时`
+
+#### 2.2.3 启用 hosts
+
+在左侧边栏启用 hosts，首次使用时软件会自动获取内容。如果无法连接到 GitHub，可以尝试用同样的方法添加 [GitHub520](https://github.com/521xueweihan/GitHub520) hosts。
+
 ## 三、参数说明
 
 1. 直接执行`check_tmdb_github.py`脚本，同时查询IPv4及IPv6地址，目录生成`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件；
@@ -98,7 +140,8 @@ hosts 文件在每个系统的位置不一，详情如下：
 3. 直接执行`check_tmdb_github_write.py`脚本，同时查询IPv4及IPv6地址，目录生成`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件；并写入Win或Linux系统的hosts文件中
 4. 直接执行`write_tmdb_github.py`脚本，将生成的`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件一并写入Win或Linux系统的hosts文件中
 5. 脚本同目录下必须带README_template.md和README.md两个文件，否者无法生成；单独的写入hosts脚本只需同目录下`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件
-6. 可以利用1panel等计划任务定时执行。                     
+6. 可以利用1panel等计划任务定时执行。_cn是中国节点，先更新为jp节点
+
 ## 其他
 
 - [x] 自学薄弱编程基础，大部分代码基于AI辅助生成，此项目过程中，主要人为解决的是：通过 [dnschecker](https://dnschecker.org/) 提交时，通过计算出正确的udp参数，获取正确的csrftoken，携带正确的referer提交！
