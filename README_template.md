@@ -96,12 +96,16 @@ GitHub 发行版：https://github.com/oldj/SwitchHosts/releases/latest
 5. 脚本同目录下必须带README_template.md和README.md两个文件，否者无法生成；单独的写入hosts脚本只需同目录下`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件
 6. 可以利用1panel等计划任务定时执行。_cn是中国节点，先更新为jp节点
 7. _fix修复403问题。
-   7.1，删除了get_csrf_token函数
-   7.2. 重写了get_domain_ips函数，使用socket.getaddrinfo直接解析域名
-   7.3. 修改了main函数，移除了CSRF Token相关逻辑
-   7.4. 优化了延迟测试和结果处理
-   7.5. 修复了文件路径重复赋值问题
-   7.6. 改进了错误提示信息
+    7.1，删除了get_csrf_token函数
+    7.2. 重写了get_domain_ips函数，使用socket.getaddrinfo直接解析域名
+    7.3. 修改了main函数，移除了CSRF Token相关逻辑
+    7.4. 优化了延迟测试和结果处理
+    7.5. 修复了文件路径重复赋值问题
+    7.6. 改进了错误提示信息
+
+8. _dnschecked和check_tmdb_google_dns_write_hosts是利用Google DNS API写的，依赖网络环境。推荐fix版利用本地dns获取。
+
+
 
 ## 其他
 
