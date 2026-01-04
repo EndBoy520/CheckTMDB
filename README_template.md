@@ -12,8 +12,8 @@
 
 ## 文件地址
 
-- tmdb ipv4 hosts文件：`https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4` ，[链接](https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4)
-- tmdb ipv6 hosts：`https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6` ，[链接](https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6)
+- TMDB IPv4 hosts：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4` ，[链接](https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4)
+- TMDB IPv6 hosts：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6` ，[链接](https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6)
 
 ## 二、使用方法
 
@@ -34,6 +34,9 @@
 ```
 
 该内容会自动定时更新， 数据更新时间：{update_time}
+
+> [!NOTE]
+> 由于项目搭建在Github Aciton，延时数据获取于Github Action 虚拟主机网络环境，请自行测试可用性，建议使用本地网络环境自动设置。
 
 #### 2.1.3 修改 hosts 文件
 
@@ -63,6 +66,27 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 **Tips：** 上述方法无效可以尝试重启机器。
 
+### 2.2 自动方式
+
+#### 2.2.1 安装 SwitchHosts
+
+GitHub 发行版：https://github.com/oldj/SwitchHosts/releases/latest
+
+#### 2.2.2 添加 hosts
+
+点击左上角“+”，并进行以下配置：
+
+- Hosts 类型：`远程`
+- Hosts 标题：任意
+- URL
+    - IPv4：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4`
+    - IPv6：`https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6`
+- 自动刷新：`1 小时`
+
+#### 2.2.3 启用 hosts
+
+在左侧边栏启用 hosts，首次使用时软件会自动获取内容。如果无法连接到 GitHub，可以尝试用同样的方法添加 [GitHub520](https://github.com/521xueweihan/GitHub520) hosts。
+
 ## 三、参数说明
 
 1. 直接执行`check_tmdb_github.py`脚本，同时查询IPv4及IPv6地址，目录生成`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件；
@@ -70,7 +94,8 @@ hosts 文件在每个系统的位置不一，详情如下：
 3. 直接执行`check_tmdb_github_write.py`脚本，同时查询IPv4及IPv6地址，目录生成`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件；并写入Win或Linux系统的hosts文件中
 4. 直接执行`write_tmdb_github.py`脚本，将生成的`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件一并写入Win或Linux系统的hosts文件中
 5. 脚本同目录下必须带README_template.md和README.md两个文件，否者无法生成；单独的写入hosts脚本只需同目录下`Tmdb_host_ipv4`文件，及`Tmdb_host_ipv6`文件
-6. 可以利用1panel等计划任务定时执行。                     
+6. 可以利用1panel等计划任务定时执行。_cn是中国节点，先更新为jp节点
+
 ## 其他
 
 - [x] 自学薄弱编程基础，大部分代码基于AI辅助生成，此项目过程中，主要人为解决的是：通过 [dnschecker](https://dnschecker.org/) 提交时，通过计算出正确的udp参数，获取正确的csrftoken，携带正确的referer提交！

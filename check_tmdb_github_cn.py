@@ -8,8 +8,6 @@ from datetime import datetime, timezone, timedelta
 from retry import retry
 import socket
 
-country_code = 'jp' #节点
-
 DOMAINS = [
     'tmdb.org',
     'api.tmdb.org',
@@ -38,8 +36,8 @@ DOMAINS = [
 Tmdb_Host_TEMPLATE = """# Tmdb Hosts Start
 {content}
 # Update time: {update_time}
-# IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
-# IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
+# IPv4 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv4
+# IPv6 Update url: https://github.com/cnwikee/CheckTMDB/blob/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
 # Tmdb Hosts End\n"""
 
@@ -145,7 +143,7 @@ def get_csrf_token(udp):
     try:
         url = f'https://dnschecker.org/ajax_files/gen_csrf.php?udp={udp}'
         headers = {
-            'referer': 'https://dnschecker.org/country/{country_code}/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
+            'referer': 'https://dnschecker.org/country/cn/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
         }
         
         response = requests.get(url, headers=headers)
@@ -162,8 +160,8 @@ def get_csrf_token(udp):
 
 @retry(tries=3)
 def get_domain_ips(domain, csrf_token, udp, argument):
-    url = f'https://dnschecker.org/ajax_files/api/220/{argument}/{domain}?dns_key=country&dns_value={country_code}&v=0.36&cd_flag=1&upd={udp}'
-    headers = {'csrftoken': csrf_token, 'referer':f'https://dnschecker.org/country/{country_code}/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'}
+    url = f'https://dnschecker.org/ajax_files/api/363/{argument}/{domain}?dns_key=country&dns_value=cn&v=0.36&cd_flag=1&upd={udp}'
+    headers = {'csrftoken': csrf_token, 'referer':'https://dnschecker.org/country/cn/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'}
     
     try:
         response = requests.get(url, headers=headers)
