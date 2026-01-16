@@ -23,29 +23,29 @@
 
 ```bash
 # Tmdb Hosts Start
-18.160.10.93                tmdb.org
-3.170.19.13                 api.tmdb.org
+18.160.10.85                tmdb.org
+3.170.19.19                 api.tmdb.org
 3.170.42.125                files.tmdb.org
-3.171.38.81                 themoviedb.org
-3.170.19.104                api.themoviedb.org
+3.171.38.80                 themoviedb.org
+3.170.19.94                 api.themoviedb.org
 3.171.38.81                 www.themoviedb.org
-3.170.3.52                  auth.themoviedb.org
-143.244.60.195              image.tmdb.org
-143.244.60.197              images.tmdb.org
-98.82.155.134               imdb.com
+3.170.3.12                  auth.themoviedb.org
+185.93.1.244                image.tmdb.org
+169.150.236.106             images.tmdb.org
+98.82.158.179               imdb.com
 18.67.70.32                 www.imdb.com
-98.82.158.179               secure.imdb.com
+44.215.137.99               secure.imdb.com
 18.67.70.32                 s.media-imdb.com
-44.215.137.99               us.dd.imdb.com
+98.82.155.134               us.dd.imdb.com
 18.67.70.32                 www.imdb.to
-98.82.155.134               origin-www.imdb.com
-54.230.22.35                ia.media-imdb.com
+98.82.158.179               origin-www.imdb.com
+3.170.27.34                 ia.media-imdb.com
 3.171.75.86                 thetvdb.com
 3.170.35.80                 api.thetvdb.com
-54.230.22.35                ia.media-imdb.com
-151.101.65.16               f.media-amazon.com
+3.170.5.35                  ia.media-imdb.com
+151.101.1.16                f.media-amazon.com
 18.67.76.79                 imdb-video.media-imdb.com
-# Update time: 2026-01-16T06:17:30+08:00
+# Update time: 2026-01-16T18:18:34+08:00
 # IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
 # IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
@@ -53,25 +53,25 @@
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2026-01-16T06:17:30+08:00
+该内容会自动定时更新， 数据更新时间：2026-01-16T18:18:34+08:00
 
 #### 2.1.2 IPv6地址复制下面的内容
 
 ```bash
 # Tmdb Hosts Start
-2600:9000:250a:5200:10:db24:6940:93a1              tmdb.org
-2600:9000:286d:6e00:10:fb02:4000:93a1              api.tmdb.org
-2600:9000:2870:7400:5:da10:7440:93a1               files.tmdb.org
-2600:9000:28a0:4c00:e:5373:440:93a1                themoviedb.org
-2600:9000:286d:e200:c:174a:c400:93a1               api.themoviedb.org
-2600:9000:28a0:b800:e:5373:440:93a1                www.themoviedb.org
-2600:9000:286a:7200:16:e4a1:eb00:93a1              auth.themoviedb.org
-2600:9000:28a3:8000:14:41bb:de80:93a1              image.tmdb.org
+2600:9000:250a:7400:10:db24:6940:93a1              tmdb.org
+2600:9000:286d:2200:10:fb02:4000:93a1              api.tmdb.org
+2600:9000:2870:8400:5:da10:7440:93a1               files.tmdb.org
+2600:9000:28a0:f200:e:5373:440:93a1                themoviedb.org
+2600:9000:286d:de00:c:174a:c400:93a1               api.themoviedb.org
+2600:9000:28a0:da00:e:5373:440:93a1                www.themoviedb.org
+2600:9000:286a:8e00:16:e4a1:eb00:93a1              auth.themoviedb.org
+2400:52e0:1a00::1348:1                             image.tmdb.org
 2400:52e0:1a00::1234:1                             images.tmdb.org
-2600:9000:24f4:c400:1d:d7f6:39d5:bd01              ia.media-imdb.com
-2600:9000:2870:9000:1d:d7f6:39d5:bd01              ia.media-imdb.com
+2600:9000:286d:e600:1d:d7f6:39d5:bd01              ia.media-imdb.com
+2600:9000:286d:e600:1d:d7f6:39d5:bd01              ia.media-imdb.com
 2a04:4e42:200::272                                 f.media-amazon.com
-# Update time: 2026-01-16T06:17:30+08:00
+# Update time: 2026-01-16T18:18:34+08:00
 # IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
 # IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
@@ -79,7 +79,7 @@
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2026-01-16T06:17:30+08:00
+该内容会自动定时更新， 数据更新时间：2026-01-16T18:18:34+08:00
 
 > [!NOTE]
 > 由于项目搭建在Github Aciton，延时数据获取于Github Action 虚拟主机网络环境，请自行测试可用性，建议使用本地网络环境自动设置。
